@@ -8,5 +8,5 @@ for i in Nums:
     try: Count_D[i] += 1
     except: Count_D[i] = 1
     
-print(sum(Nums)/len(Nums))
+print(int(sum(Nums)/len(Nums)))
 print(max(Count_D, key = Count_D.get))
