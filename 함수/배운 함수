@@ -2,6 +2,9 @@ sys - 여러줄의 입력
 lambda
 sum - 요소의 합
 max - 요소의 최대
+ㄴ max(요소, 기준)
+    ㄴex)(max(Count_D, key = Count_D.get)) 라면 Count_D라는 딕셔너리 안에서, Count_D.get으로 뽑은 각 키에 대한 value를 기준으로 최대값을 정함.
+
 min - 요소의 최소
 map - 각 요소의 매핑
 append - 리스트 추가
